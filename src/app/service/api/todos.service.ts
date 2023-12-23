@@ -6,10 +6,6 @@ import { ToDo } from '../models/ToDo';
   providedIn: 'root'
 })
 export class TodosService {
-
-
-
-
   private baseUrl = 'https://jsonplaceholder.typicode.com/';
 
   currentTodos: Array<ToDo> = []
