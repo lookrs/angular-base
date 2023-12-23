@@ -13,9 +13,6 @@ export class TodoListComponent {
   @Input()
   todos: Array<ToDo> = [];
 
-  @Input()
-  index: number = -1;
-
   constructor(
     private todoService: TodosService
   ) { }
