@@ -1,0 +1,6 @@
+<app-operate-bar></app-operate-bar>
+<div class="container">
+  <app-todo-detail [todo]="td" [idx]="i+1" *ngFor="let td of todos ; index as i" (delete)="deleteTodo(i)"
+    (complete)="setComplete(i)">
+  </app-todo-detail>
+</div>

@@ -1,0 +1,11 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Type a TODO</mat-label>
+    <input matInput placeholder="Ex. I wana do something..." [(ngModel)]="todoInput" name="todoText">
+  </mat-form-field>
+  <section>
+    <div class="example-button-row">
+      <button mat-flat-button color="primary" (click)="addTodo()">ADD</button>
+    </div>
+  </section>
+</form>
