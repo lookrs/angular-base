@@ -15,8 +15,7 @@ import { LayoutComponent } from './component/layout/layout.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import { HttpClient, HttpClientModule } from "@angular/common/http";
-import { TodosService } from './service/api/todos.service';
+import { HttpClientModule } from "@angular/common/http";
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
@@ -50,7 +49,7 @@ import { MatBadgeModule } from '@angular/material/badge';
     MatBadgeModule
 
   ],
-  providers: [HttpClient, TodosService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
