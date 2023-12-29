@@ -1,8 +1,0 @@
-<p>{{message}}</p>
-<div [id]='"attr"'>属性绑定</div>
-<input [(ngModel)]="mytitle" type="text">
-<p>标题：{{mytitle}}</p>
-<input #inputbox (input)="inChange($event)" type="text">
-
-<button (click)="getInputVal(inputbox.value)">点我</button><br>
-<mat-slide-toggle>Toggle me!</mat-slide-toggle>
