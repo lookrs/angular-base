@@ -9,6 +9,8 @@
 # Node
 /node_modules
 **/node_modules
+**/hooks
+**/platforms
 npm-debug.log
 yarn-error.log
 
